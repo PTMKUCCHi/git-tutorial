@@ -3,6 +3,10 @@ for i in 1..10
      print("FizzBuzz\n")
   elsif i%3==0
      print("FIzz\n")
+  elsif i%5==0
+    print("Bizz\n")
+  else
+    print("%d\n",i)
   end
 end
 
